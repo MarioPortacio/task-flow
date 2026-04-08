@@ -1,1 +1,63 @@
-/* You can add global styles to this file, and also import other style files */
+@use "tailwindcss";
+
+/*  CONFIGURACIÓN MODO OSCURO */
+@theme {
+  
+}
+
+/* Esta línea permite que dark: funcione con la clase .dark en el html */
+@variant dark (&:where(.dark, .dark *));
+
+
+
+/* Suaviza el movimiento de las tarjetas que se apartan */
+.cdk-drop-list-dragging .cdk-drag {
+  transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+/* Suaviza el retorno de la tarjeta al soltarla */
+.cdk-drag-animating {
+  transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+/* El hueco (placeholder) lo hacemos invisible para que no haya saltos bruscos */
+.cdk-drag-placeholder {
+  opacity: 0;
+}
+
+/* La tarjeta que se lleva en la mano (Preview) */
+.cdk-drag-preview {
+  box-sizing: border-box;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  transition: none; 
+  background-color: white; 
+}
+
+/* Aplicar fondo oscuro a la tarjeta flotante SOLO cuando el modo oscuro está activo */
+.dark .cdk-drag-preview {
+  background-color: #1f2937; /* gray-800 */
+  border: 1px solid #374151; /* gray-700 */
+  color: white;
+}
+
+/* Clase para el hueco que deja la columna al ser arrastrada */
+.cdk-drag-placeholder {
+  opacity: 0.3;
+  background: #cbd5e1;
+  border: 2px dashed #94a3b8;
+  border-radius: 1rem;
+}
+
+/* Para que la preview (lo que lleva pegado al ratón) mantenga el diseño */
+.cdk-drag-preview {
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  opacity: 0.9;
+}
+
+
+/* Esto anula cualquier animación de CSS que ralentice el resize */
+.resizing-active {
+  transition: none !important;
+  user-select: none; /* Evita que se seleccione texto azul mientra arrastra */
+}
