@@ -54,7 +54,7 @@
 
 1.  **Clona el repositorio:**
     ```bash
-    git clone [https://github.com/MarioPortacio/task-flow.git](https://github.com/MarioPortacio/task-flow.git)
+    git clone https://github.com/MarioPortacio/task-flow.git
     cd task-flow
     ```
 
