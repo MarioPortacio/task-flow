@@ -3,8 +3,29 @@
 **TaskFlow** es una aplicación de gestión de tareas y organización visual construida con **Angular**, diseñada para ser ligera, rápida y totalmente privada. A diferencia de otras herramientas, TaskFlow permite el control total de los datos mediante la exportación e importación de archivos `.tflow`.
 
 
-![Angular](https://img.shields.io/badge/Angular-17+-dd0031.svg?logo=angular)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-3.0+-38bdf8.svg?logo=tailwind-css)
+![Angular](https://img.shields.io/badge/Angular-21+-dd0031.svg?logo=angular)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-4.0+-38bdf8.svg?logo=tailwind-css)
+
+---
+
+## 🚀 Demo
+> https://task-flow-eight-gules.vercel.app/
+
+---
+
+![Home de la App](https://github.com/MarioPortacio/task-flow/blob/832f4b74372801a077d91ddbd99048bd0d4d74f9/img/home.jpg)
+
+![Pantalla 1](https://github.com/MarioPortacio/task-flow/blob/832f4b74372801a077d91ddbd99048bd0d4d74f9/img/p1.jpg)
+
+![Pantalla 2](https://github.com/MarioPortacio/task-flow/blob/832f4b74372801a077d91ddbd99048bd0d4d74f9/img/p2.jpg)
+
+![Plantilla](https://github.com/MarioPortacio/task-flow/blob/832f4b74372801a077d91ddbd99048bd0d4d74f9/img/plantillajpg.jpg)
+
+![Edicion](https://github.com/MarioPortacio/task-flow/blob/832f4b74372801a077d91ddbd99048bd0d4d74f9/img/edicion.jpg)
+
+![Light P2](https://github.com/MarioPortacio/task-flow/blob/832f4b74372801a077d91ddbd99048bd0d4d74f9/img/light_p2.jpg)
+
+![Light Home](https://github.com/MarioPortacio/task-flow/blob/832f4b74372801a077d91ddbd99048bd0d4d74f9/img/light_home.jpg)
 
 ---
 
@@ -21,7 +42,7 @@
 
 ## 🛠️ Tecnologías Utilizadas
 
-* **Framework:** [Angular](https://angular.io/) (v17+)
+* **Framework:** [Angular](https://angular.io/) (v21+)
 * **Estilos:** [Tailwind CSS](https://tailwindcss.com/)
 * **Interactividad:** [Angular CDK](https://material.angular.io/cdk/) (Drag & Drop)
 * **Iconos:** SVG Dinámicos (Heroicons)
